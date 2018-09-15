@@ -1,2 +1,1 @@
-//hello
-//whats
+var wordMap = new Object();
