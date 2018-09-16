@@ -1,20 +1,120 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>passiveNative</title>
-        <link rel="stylesheet" href="main.css">
-        
-        <script>
-             
-        </script>
 
-    </head>
-    <body>
-        <h1>passiveNative</h1>
-        <p>
-            <button type="button">Click Me!</button>
-            <button class="randomise">Give me another</button>
-            
-        </p>
-    </body>
+<!DOCTYPE html>
+
+
+
+
+<html>
+
+
+   <head>
+
+
+       <meta charset="utf-8">
+       <script src="main.js"></script>
+
+       <title>passiveNative</title>
+
+
+   </head>
+
+
+   <body>
+       <h1>passiveNative</h1>
+
+
+       <div class="container"> <!-- This is the main menu for selecting categories -->
+
+
+           <div class="button-list">
+
+
+               <button onclick="setCategory('btn-verbs')" id="btn-verbs"><p>Verbs</p></button>
+
+
+               <button onclick="setCategory('btn-grammar')" id="btn-grammar"><p>Grammar</p></button>
+
+
+               <button onclick="setCategory('btn-body')" id="btn-body"><p>Body</p></button>
+
+               <button id="checkPage">Check this page now!</button>
+
+               <button onclick="setCategory('btn-animals')" id="btn-animals"><p>Animals</p></button>
+
+
+               <button onclick="setCategory('btn-adjective')" id="btn-adjective"><p>Adjectives</p></button>
+
+
+               <button onclick="setCategory('btn-objects')" id="btn-objects"><p>Objects</p></button>
+
+
+               <button onclick="setCategory('btn-places')" id="btn-places"><p>Places</p></button>
+
+
+               <button onclick="setCategory('btn-people')" id="btn-people"><p>People</p></button>
+
+
+               <button onclick="setCategory('btn-sayings')" id="btn-sayings"><p>Sayings</p></button>
+
+
+           </div>
+
+
+          
+
+
+           <div class="flashcards"> <!-- This is the section where you have the flashcards, answering, etc -->
+
+
+               <h3 id="category-title"></h3>
+
+
+               <div id="card" style="height:60%; width:60%; background-color: #F5F500;"><p id="word"></p></div>
+
+
+               <input type="text" id="answer"/><input onclick="isCorrect(document.getElementById('id'.innerText))" type="submit" id="btn-submit"/>
+
+
+               <div id="response"><p id="response-text"></p></div>
+
+
+                   <button onclick="document.getElementById('word').innerHTML" id="show-answer">Show Answer</button>
+
+
+                   <button onclick="showWord()" id="next-word">Next Word</button>
+
+
+           </div><!-- Need to find a way to showWord at the beginning before calling when you click the 'Next Word' button -->
+
+
+       </div>
+
+
+       <script>
+
+
+           function setCategory(categoryTitle) {
+
+
+               /* this function sets the category and an h3 element to the name of the category  */
+
+
+               var category = document.getElementById(categoryTitle).innerText;
+
+
+               document.getElementById("category-title").innerHTML = category;
+
+
+           }
+
+
+       </script>
+
+
+       <script src="main.js"></script>
+
+
+   </body>
+
+
 </html>

@@ -1,6 +1,4 @@
 let wordMap = [];
-let mappedWords = [];
-
 
 let igboWords = [
     {
@@ -646,8 +644,7 @@ the number of attempts and calculating the percentage of correct*/
 var answer = Word("bata", "to enter", "verb");
 dicts.push(answer); */
 
-  console.log(wordMap); // Logs output to dev tools console.
-
+//console.log(wordMap); // Logs output to dev tools console.
 
 function Word(word, english, category) {
     this.word = word;
@@ -704,6 +701,19 @@ function Word(word, english, category) {
         }
     }
  };
+
+
+
+ function newWord(){
+    
+    let ranNum = Math.floor(Math.random()* wordMap.length);
+    let currWord = wordMap[ranNum].word;
+    return currWord;
+    
+ }
+ 
+console.log(wordMap[12].word + wordMap[12].english);
+var checkButton = document.getElementById('btn-verbs');
 
  
 
