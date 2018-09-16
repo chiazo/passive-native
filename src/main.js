@@ -1,632 +1,630 @@
 
+var igboWords = JSON.parse([{
+      "igboWord": "bata",
+      "englishWord": "to enter",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "bee",
+      "englishWord": "to cut",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "choro ime",
+      "englishWord": "to try / attempt",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "choro osiso",
+      "englishWord": "to be anxious",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "chegha",
+      "englishWord": "to hope",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "erika",
+      "englishWord": "to be much",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "gwa",
+      "englishWord": "to tell",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "hap%u1EE5ru",
+      "englishWord": "to leave",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "�ch�",
+      "englishWord": "to want",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "%u1ECBdere",
+      "englishWord": "to copy",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "igbu",
+      "englishWord": "to kill",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "%u1ECBguo",
+      "englishWord": "to count",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "banye",
+      "englishWord": "enter / get on",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "ikw�",
+      "englishWord": "to carry on back (like a baby)",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "ili",
+      "englishWord": "to bury",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "ime",
+      "englishWord": "to do",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "�m�",
+      "englishWord": "to learn",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "%u1ECBmu nwa",
+      "englishWord": "to give birth",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "�n�",
+      "englishWord": "to hear",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "ire",
+      "englishWord": "to sell",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "isi",
+      "englishWord": "to cook",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "�ta",
+      "englishWord": "to eat",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "%u1ECBta",
+      "englishWord": "to chew",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "�za",
+      "englishWord": "to sweep",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "%u1ECBza",
+      "englishWord": "to answer",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "izute",
+      "englishWord": "to meet",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "jee",
+      "englishWord": "to travel",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "jide",
+      "englishWord": "to hold",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "kp%u1ECD",
+      "englishWord": "to call",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "kuta",
+      "englishWord": "to fetch",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "kuzie",
+      "englishWord": "to teach",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "mechiri",
+      "englishWord": "to cover",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "met%u1EE5r%u1EE5",
+      "englishWord": "to effect / touch",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "naara",
+      "englishWord": "to take",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "nlecha",
+      "englishWord": "to overexcite :(",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "were naka",
+      "englishWord": "to borrow",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "wete / bute / nyem",
+      "englishWord": "to bring",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "wetere",
+      "englishWord": "to obtain",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "zuru of%u1EE5ma",
+      "englishWord": "to be enough",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "putara",
+      "englishWord": "to come out",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "shiri ike",
+      "englishWord": "to be able to",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "sie",
+      "englishWord": "to cook",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "soro",
+      "englishWord": "to follow",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "omee / omeka",
+      "englishWord": "to do like",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "ode",
+      "englishWord": "to write",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "nyaa",
+      "englishWord": "to drive",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "nye",
+      "englishWord": "to give",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "p%u1EE5%u1ECD ap%u1EE5",
+      "englishWord": "going out",
+      "category": "verbs"
+    },
+    {
+      "igboWord": "b%u1ECBara",
+      "englishWord": "came",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "bido",
+      "englishWord": "begun",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "g�n�",
+      "englishWord": "what",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "ma / kwa",
+      "englishWord": "also",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "ebe",
+      "englishWord": "place",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "ebea",
+      "englishWord": "here",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "ebe nine",
+      "englishWord": "everywhere",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "echi",
+      "englishWord": "tomorrow",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "etite",
+      "englishWord": "center",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "etiti",
+      "englishWord": "between",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "emechaa",
+      "englishWord": "after / finish",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "kedu",
+      "englishWord": "how / when / where / which",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "kwusi",
+      "englishWord": "stop",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "maka m%u1EE5",
+      "englishWord": "for me",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "na",
+      "englishWord": "and / at",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "n'enu",
+      "englishWord": "upstairs",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "n'etiti",
+      "englishWord": "in the middle of",
+      "category": "grammer"
+    },
+    {
+      "igboWord": "af%u1ECD",
+      "englishWord": "stomach",
+      "category": "body"
+    },
+    {
+      "igboWord": "ah�",
+      "englishWord": "body",
+      "category": "body"
+    },
+    {
+      "igboWord": "ukwu",
+      "englishWord": "foot",
+      "category": "body"
+    },
+    {
+      "igboWord": "ihu",
+      "englishWord": "face / front",
+      "category": "body"
+    },
+    {
+      "igboWord": "afa",
+      "englishWord": "name",
+      "category": "body"
+    },
+    {
+      "igboWord": "an�",
+      "englishWord": "meat/animal",
+      "category": "animal"
+    },
+    {
+      "igboWord": "azu",
+      "englishWord": "fish / back",
+      "category": "animal"
+    },
+    {
+      "igboWord": "ezi",
+      "englishWord": "pig",
+      "category": "animal"
+    },
+    {
+      "igboWord": "nkita",
+      "englishWord": "dog",
+      "category": "animal"
+    },
+    {
+      "igboWord": "d%u1ECB mma",
+      "englishWord": "fine",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "di %u1ECDfuma",
+      "englishWord": "awesome",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "di njoo",
+      "englishWord": "awful",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "mara mma",
+      "englishWord": "beautiful",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "mbara",
+      "englishWord": "wide",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ujo",
+      "englishWord": "afraid",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ntakiri",
+      "englishWord": "small",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "%u1ECDh%u1EE5r%u1EE5",
+      "englishWord": "new",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "oji",
+      "englishWord": "black",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "%u1ECDj%u1ECD%u1ECD",
+      "englishWord": "ugly / bad",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "�ma",
+      "englishWord": "good",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "oyi",
+      "englishWord": "cold",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "%u1ECDz%u1ECD",
+      "englishWord": "other / extra",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ogologo",
+      "englishWord": "tail / long",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ocha",
+      "englishWord": "clean",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "%u1ECDcha",
+      "englishWord": "white",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "obere",
+      "englishWord": "small",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "enuku",
+      "englishWord": "big",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ike",
+      "englishWord": "strength",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ma ihe",
+      "englishWord": "clever",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "nsogbu",
+      "englishWord": "trouble / crisis",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "ochie",
+      "englishWord": "old",
+      "category": "adjective"
+    },
+    {
+      "igboWord": "akpa",
+      "englishWord": "bag",
+      "category": "objects"
+    },
+    {
+      "igboWord": "akw%u1EE5kw%u1ECD",
+      "englishWord": "book",
+      "category": "objects"
+    },
+    {
+      "igboWord": "akw%u1EE5kwo ego",
+      "englishWord": "check",
+      "category": "objects"
+    },
+    {
+      "igboWord": "uz%u1ECD",
+      "englishWord": "door",
+      "category": "objects"
+    },
+    {
+      "igboWord": "efere",
+      "englishWord": "plate",
+      "category": "objects"
+    },
+    {
+      "igboWord": "iko",
+      "englishWord": "cup",
+      "category": "objects"
+    },
+    {
+      "igboWord": "ngazi",
+      "englishWord": "spoon",
+      "category": "objects"
+    },
+    {
+      "igboWord": "oche",
+      "englishWord": "chair",
+      "category": "objects"
+    },
+    {
+      "igboWord": "mmiri",
+      "englishWord": "water",
+      "category": "objects"
+    },
+    {
+      "igboWord": "ute",
+      "englishWord": "carpet",
+      "category": "objects"
+    },
+    {
+      "igboWord": "nsi",
+      "englishWord": "poop",
+      "category": "objects"
+    },
+    {
+      "igboWord": "%u1ECDgede",
+      "englishWord": "banana",
+      "category": "objects"
+    },
+    {
+      "igboWord": "uka",
+      "englishWord": "church",
+      "category": "places"
+    },
+    {
+      "igboWord": "isi obodo",
+      "englishWord": "capital",
+      "category": "places"
+    },
+    {
+      "igboWord": "obodo",
+      "englishWord": "city / country",
+      "category": "places"
+    },
+    {
+      "igboWord": "%u1EE5n%u1ECD ak%u1EE5kwo",
+      "englishWord": "school",
+      "category": "places"
+    },
+    {
+      "igboWord": "chukwu",
+      "englishWord": "God",
+      "category": "people"
+    },
+    {
+      "igboWord": "di",
+      "englishWord": "husband",
+      "category": "people"
+    },
+    {
+      "igboWord": "enye",
+      "englishWord": "friend",
+      "category": "people"
+    },
+    {
+      "igboWord": "nwa",
+      "englishWord": "child",
+      "category": "people"
+    },
+    {
+      "igboWord": "nwanne",
+      "englishWord": "cousin",
+      "category": "people"
+    },
+    {
+      "igboWord": "nwanne nwoke",
+      "englishWord": "brother",
+      "category": "people"
+    },
+    {
+      "igboWord": "nna",
+      "englishWord": "father",
+      "category": "people"
+    },
+    {
+      "igboWord": "%u1EE5m%u1EE5 / %u1EE5m%u1EE5aka",
+      "englishWord": "children",
+      "category": "people"
+    },
+    {
+      "igboWord": "imela",
+      "englishWord": "thank you",
+      "category": "sayings"
+    },
+    {
+      "igboWord": "chimoo",
+      "englishWord": "heyyy",
+      "category": "sayings"
+    },
+    {
+      "igboWord": "da al�",
+      "englishWord": "good job",
+      "category": "sayings"
+    },
+    {
+      "igboWord": "ka chi foo",
+      "englishWord": "good night",
+      "category": "sayings"
+    },
+    {
+      "igboWord": "ndo",
+      "englishWord": "sorry",
+      "category": "sayings"
+    }]);
 
-var igboWords = JSON.parse([
-    {
-      "igbo word": "bata",
-      "english word": "to enter",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "bee",
-      "english word": "to cut",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "choro ime",
-      "english word": "to try / attempt",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "choro osiso",
-      "english word": "to be anxious",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "chegha",
-      "english word": "to hope",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "erika",
-      "english word": "to be much",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "gwa",
-      "english word": "to tell",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "hap_ru",
-      "english word": "to leave",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "�ch�",
-      "english word": "to want",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "_dere",
-      "english word": "to copy",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "igbu",
-      "english word": "to kill",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "_guo",
-      "english word": "to count",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "banye",
-      "english word": "enter / get on",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "ikw�",
-      "english word": "to carry on back (like a baby)",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "ili",
-      "english word": "to bury",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "ime",
-      "english word": "to do",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "�m�",
-      "english word": "to learn",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "_mu nwa",
-      "english word": "to give birth",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "�n�",
-      "english word": "to hear",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "ire",
-      "english word": "to sell",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "isi",
-      "english word": "to cook",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "�ta",
-      "english word": "to eat",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "_ta",
-      "english word": "to chew",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "�za",
-      "english word": "to sweep",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "_za",
-      "english word": "to answer",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "izute",
-      "english word": "to meet",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "jee",
-      "english word": "to travel",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "jide",
-      "english word": "to hold",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "kp_",
-      "english word": "to call",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "kuta",
-      "english word": "to fetch",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "kuzie",
-      "english word": "to teach",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "mechiri",
-      "english word": "to cover",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "met_r_",
-      "english word": "to effect / touch",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "naara",
-      "english word": "to take",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "nlecha",
-      "english word": "to overexcite :(",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "were naka",
-      "english word": "to borrow",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "wete / bute / nyem",
-      "english word": "to bring",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "wetere",
-      "english word": "to obtain",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "zuru of_ma",
-      "english word": "to be enough",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "putara",
-      "english word": "to come out",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "shiri ike",
-      "english word": "to be able to",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "sie",
-      "english word": "to cook",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "soro",
-      "english word": "to follow",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "omee / omeka",
-      "english word": "to do like",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "ode",
-      "english word": "to write",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "nyaa",
-      "english word": "to drive",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "nye",
-      "english word": "to give",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "p__ ap_",
-      "english word": "going out",
-      "category": "verbs"
-    },
-    {
-      "igbo word": "b_ara",
-      "english word": "came",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "bido",
-      "english word": "begun",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "g�n�",
-      "english word": "what",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "ma / kwa",
-      "english word": "also",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "ebe",
-      "english word": "place",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "ebea",
-      "english word": "here",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "ebe nine",
-      "english word": "everywhere",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "echi",
-      "english word": "tomorrow",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "etite",
-      "english word": "center",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "etiti",
-      "english word": "between",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "emechaa",
-      "english word": "after / finish",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "kedu",
-      "english word": "how / when / where / which",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "kwusi",
-      "english word": "stop",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "maka m_",
-      "english word": "for me",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "na",
-      "english word": "and / at",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "n'enu",
-      "english word": "upstairs",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "n'etiti",
-      "english word": "in the middle of",
-      "category": "grammer"
-    },
-    {
-      "igbo word": "af_",
-      "english word": "stomach",
-      "category": "body"
-    },
-    {
-      "igbo word": "ah�",
-      "english word": "body",
-      "category": "body"
-    },
-    {
-      "igbo word": "ukwu",
-      "english word": "foot",
-      "category": "body"
-    },
-    {
-      "igbo word": "ihu",
-      "english word": "face / front",
-      "category": "body"
-    },
-    {
-      "igbo word": "afa",
-      "english word": "name",
-      "category": "body"
-    },
-    {
-      "igbo word": "an�",
-      "english word": "meat/animal",
-      "category": "animal"
-    },
-    {
-      "igbo word": "azu",
-      "english word": "fish / back",
-      "category": "animal"
-    },
-    {
-      "igbo word": "ezi",
-      "english word": "pig",
-      "category": "animal"
-    },
-    {
-      "igbo word": "nkita",
-      "english word": "dog",
-      "category": "animal"
-    },
-    {
-      "igbo word": "d_ mma",
-      "english word": "fine",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "di _fuma",
-      "english word": "awesome",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "di njoo",
-      "english word": "awful",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "mara mma",
-      "english word": "beautiful",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "mbara",
-      "english word": "wide",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ujo",
-      "english word": "afraid",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ntakiri",
-      "english word": "small",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "_h_r_",
-      "english word": "new",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "oji",
-      "english word": "black",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "_j__",
-      "english word": "ugly / bad",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "�ma",
-      "english word": "good",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "oyi",
-      "english word": "cold",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "_z_",
-      "english word": "other / extra",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ogologo",
-      "english word": "tail / long",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ocha",
-      "english word": "clean",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "_cha",
-      "english word": "white",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "obere",
-      "english word": "small",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "enuku",
-      "english word": "big",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ike",
-      "english word": "strength",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ma ihe",
-      "english word": "clever",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "nsogbu",
-      "english word": "trouble / crisis",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "ochie",
-      "english word": "old",
-      "category": "adjective"
-    },
-    {
-      "igbo word": "akpa",
-      "english word": "bag",
-      "category": "objects"
-    },
-    {
-      "igbo word": "akw_kw_",
-      "english word": "book",
-      "category": "objects"
-    },
-    {
-      "igbo word": "akw_kwo ego",
-      "english word": "check",
-      "category": "objects"
-    },
-    {
-      "igbo word": "uz_",
-      "english word": "door",
-      "category": "objects"
-    },
-    {
-      "igbo word": "efere",
-      "english word": "plate",
-      "category": "objects"
-    },
-    {
-      "igbo word": "iko",
-      "english word": "cup",
-      "category": "objects"
-    },
-    {
-      "igbo word": "ngazi",
-      "english word": "spoon",
-      "category": "objects"
-    },
-    {
-      "igbo word": "oche",
-      "english word": "chair",
-      "category": "objects"
-    },
-    {
-      "igbo word": "mmiri",
-      "english word": "water",
-      "category": "objects"
-    },
-    {
-      "igbo word": "ute",
-      "english word": "carpet",
-      "category": "objects"
-    },
-    {
-      "igbo word": "nsi",
-      "english word": "poop",
-      "category": "objects"
-    },
-    {
-      "igbo word": "_gede",
-      "english word": "banana",
-      "category": "objects"
-    },
-    {
-      "igbo word": "uka",
-      "english word": "church",
-      "category": "places"
-    },
-    {
-      "igbo word": "isi obodo",
-      "english word": "capital",
-      "category": "places"
-    },
-    {
-      "igbo word": "obodo",
-      "english word": "city / country",
-      "category": "places"
-    },
-    {
-      "igbo word": "_n_ ak_kwo",
-      "english word": "school",
-      "category": "places"
-    },
-    {
-      "igbo word": "chukwu",
-      "english word": "God",
-      "category": "people"
-    },
-    {
-      "igbo word": "di",
-      "english word": "husband",
-      "category": "people"
-    },
-    {
-      "igbo word": "enye",
-      "english word": "friend",
-      "category": "people"
-    },
-    {
-      "igbo word": "nwa",
-      "english word": "child",
-      "category": "people"
-    },
-    {
-      "igbo word": "nwanne",
-      "english word": "cousin",
-      "category": "people"
-    },
-    {
-      "igbo word": "nwanne nwoke",
-      "english word": "brother",
-      "category": "people"
-    },
-    {
-      "igbo word": "nna",
-      "english word": "father",
-      "category": "people"
-    },
-    {
-      "igbo word": "_m_ / _m_aka",
-      "english word": "children",
-      "category": "people"
-    },
-    {
-      "igbo word": "imela",
-      "english word": "thank you",
-      "category": "sayings"
-    },
-    {
-      "igbo word": "chimoo",
-      "english word": "heyyy",
-      "category": "sayings"
-    },
-    {
-      "igbo word": "da al�",
-      "english word": "good job",
-      "category": "sayings"
-    },
-    {
-      "igbo word": "ka chi foo",
-      "english word": "good night",
-      "category": "sayings"
-    },
-    {
-      "igbo word": "ndo",
-      "english word": "sorry",
-      "category": "sayings"
-    }
-   ]);
 let wordMap ={};
 
 /* chrome.storage.sync.set({key: value}, function() {
@@ -638,28 +636,9 @@ let wordMap ={};
   }); */
 
   //var igboWords = require('/Users/chiazo/Desktop/igboWords.json');
-
-  function loadJSON(callback){
-      var xobj = new XMLHttpRequest();
-        xobj.overrideMimeType("application/json");
-        xobj.open('GET', /Users/chiazo/Desktop/igboWords.json, true);
-        xobj.onreadystatechange = function () {
-            if(xobj.readyState === 4 && xobj.status === "200"){
-                callback(xobj.responseText);
-            }
-        };
-        xobj.send(null);
-  }
-
-  function init(){
-      loadJSON(function(response){
-          igboWords = JSON.parse(response);
-      });
-  }
  
     for (let i = 0; i < igboWords.length; i++){
-        //wordMap.push();
-        console.log(igboWords[i]); 
+        wordMap.push(igboWords[i]);
     }   
     
 
