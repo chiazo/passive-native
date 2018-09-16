@@ -1,0 +1,4 @@
+var dump;
+for (i = 0; i < wordMap.length; i++) { 
+    dump.push(0);
+}
