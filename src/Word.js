@@ -52,4 +52,4 @@ function sortWords(type){
    }
 }
 
-function submit(ans)
+
