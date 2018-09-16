@@ -7,3 +7,27 @@ h1 {
 p {
     color: red;
 }
+
+button {
+    color: #F5F500;
+    margin-bottom: 1px;
+    border-radius: 95%;
+}
+
+button p {
+    color: black;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.button-list {
+    visibility: visible;
+    float: left;
+}
+
+.flashcards {
+    visibility: hidden;
+    float: right;
+}

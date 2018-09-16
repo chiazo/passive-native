@@ -32,6 +32,19 @@ function showWord(category){
         }
     }
 
-    return word;
+    document.getElementById("word").innerHTML = word;
 
 }
+
+
+function isCorrect(question){
+    /* code for matching the word to its translation then using if statement to determine if its correct
+    then update the 'response' div accordingly (green if correct, red if incorrect) 
+    and also update the word object with the attempts and attempts correct */
+}
+
+function showAnswer(question){
+    /* with question=word, find the answer and change the 'card' div to display the answer */
+}
+
+/* create something to update the words, and update the arrays based on the updates of the objects */
