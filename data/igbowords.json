@@ -1,0 +1,627 @@
+[
+ {
+   "term": "bata",
+   "translation": "to enter",
+   "category": "verbs"
+ },
+ {
+   "term": "bee",
+   "translation": "to cut",
+   "category": "verbs"
+ },
+ {
+   "term": "choro ime",
+   "translation": "to try / attempt",
+   "category": "verbs"
+ },
+ {
+   "term": "choro osiso",
+   "translation": "to be anxious",
+   "category": "verbs"
+ },
+ {
+   "term": "chegha",
+   "translation": "to hope",
+   "category": "verbs"
+ },
+ {
+   "term": "erika",
+   "translation": "to be much",
+   "category": "verbs"
+ },
+ {
+   "term": "gwa",
+   "translation": "to tell",
+   "category": "verbs"
+ },
+ {
+   "term": "hapụru",
+   "translation": "to leave",
+   "category": "verbs"
+ },
+ {
+   "term": "ïchö",
+   "translation": "to want",
+   "category": "verbs"
+ },
+ {
+   "term": "ịdere",
+   "translation": "to copy",
+   "category": "verbs"
+ },
+ {
+   "term": "igbu",
+   "translation": "to kill",
+   "category": "verbs"
+ },
+ {
+   "term": "ịguo",
+   "translation": "to count",
+   "category": "verbs"
+ },
+ {
+   "term": "banye",
+   "translation": "enter / get on",
+   "category": "verbs"
+ },
+ {
+   "term": "ikwö",
+   "translation": "to carry on back (like a baby)",
+   "category": "verbs"
+ },
+ {
+   "term": "ili",
+   "translation": "to bury",
+   "category": "verbs"
+ },
+ {
+   "term": "ime",
+   "translation": "to do",
+   "category": "verbs"
+ },
+ {
+   "term": "ïmü",
+   "translation": "to learn",
+   "category": "verbs"
+ },
+ {
+   "term": "ịmu nwa",
+   "translation": "to give birth",
+   "category": "verbs"
+ },
+ {
+   "term": "ïnü",
+   "translation": "to hear",
+   "category": "verbs"
+ },
+ {
+   "term": "ire",
+   "translation": "to sell",
+   "category": "verbs"
+ },
+ {
+   "term": "isi",
+   "translation": "to cook",
+   "category": "verbs"
+ },
+ {
+   "term": "ïta",
+   "translation": "to eat",
+   "category": "verbs"
+ },
+ {
+   "term": "ịta",
+   "translation": "to chew",
+   "category": "verbs"
+ },
+ {
+   "term": "ïza",
+   "translation": "to sweep",
+   "category": "verbs"
+ },
+ {
+   "term": "ịza",
+   "translation": "to answer",
+   "category": "verbs"
+ },
+ {
+   "term": "izute",
+   "translation": "to meet",
+   "category": "verbs"
+ },
+ {
+   "term": "jee",
+   "translation": "to travel",
+   "category": "verbs"
+ },
+ {
+   "term": "jide",
+   "translation": "to hold",
+   "category": "verbs"
+ },
+ {
+   "term": "kpọ",
+   "translation": "to call",
+   "category": "verbs"
+ },
+ {
+   "term": "kuta",
+   "translation": "to fetch",
+   "category": "verbs"
+ },
+ {
+   "term": "kuzie",
+   "translation": "to teach",
+   "category": "verbs"
+ },
+ {
+   "term": "mechiri",
+   "translation": "to cover",
+   "category": "verbs"
+ },
+ {
+   "term": "metụrụ",
+   "translation": "to effect / touch",
+   "category": "verbs"
+ },
+ {
+   "term": "naara",
+   "translation": "to take",
+   "category": "verbs"
+ },
+ {
+   "term": "nlecha",
+   "translation": "to overexcite :(",
+   "category": "verbs"
+ },
+ {
+   "term": "were naka",
+   "translation": "to borrow",
+   "category": "verbs"
+ },
+ {
+   "term": "wete / bute / nyem",
+   "translation": "to bring",
+   "category": "verbs"
+ },
+ {
+   "term": "wetere",
+   "translation": "to obtain",
+   "category": "verbs"
+ },
+ {
+   "term": "zuru ofụma",
+   "translation": "to be enough",
+   "category": "verbs"
+ },
+ {
+   "term": "putara",
+   "translation": "to come out",
+   "category": "verbs"
+ },
+ {
+   "term": "shiri ike",
+   "translation": "to be able to",
+   "category": "verbs"
+ },
+ {
+   "term": "sie",
+   "translation": "to cook",
+   "category": "verbs"
+ },
+ {
+   "term": "soro",
+   "translation": "to follow",
+   "category": "verbs"
+ },
+ {
+   "term": "omee / omeka",
+   "translation": "to do like",
+   "category": "verbs"
+ },
+ {
+   "term": "ode",
+   "translation": "to write",
+   "category": "verbs"
+ },
+ {
+   "term": "nyaa",
+   "translation": "to drive",
+   "category": "verbs"
+ },
+ {
+   "term": "nye",
+   "translation": "to give",
+   "category": "verbs"
+ },
+ {
+   "term": "pụọ apụ",
+   "translation": "going out",
+   "category": "verbs"
+ },
+ {
+   "term": "bịara",
+   "translation": "came",
+   "category": "grammer"
+ },
+ {
+   "term": "bido",
+   "translation": "begun",
+   "category": "grammer"
+ },
+ {
+   "term": "gïnï",
+   "translation": "what",
+   "category": "grammer"
+ },
+ {
+   "term": "ma / kwa",
+   "translation": "also",
+   "category": "grammer"
+ },
+ {
+   "term": "ebe",
+   "translation": "place",
+   "category": "grammer"
+ },
+ {
+   "term": "ebea",
+   "translation": "here",
+   "category": "grammer"
+ },
+ {
+   "term": "ebe nine",
+   "translation": "everywhere",
+   "category": "grammer"
+ },
+ {
+   "term": "echi",
+   "translation": "tomorrow",
+   "category": "grammer"
+ },
+ {
+   "term": "etite",
+   "translation": "center",
+   "category": "grammer"
+ },
+ {
+   "term": "etiti",
+   "translation": "between",
+   "category": "grammer"
+ },
+ {
+   "term": "emechaa",
+   "translation": "after / finish",
+   "category": "grammer"
+ },
+ {
+   "term": "kedu",
+   "translation": "how / when / where / which",
+   "category": "grammer"
+ },
+ {
+   "term": "kwusi",
+   "translation": "stop",
+   "category": "grammer"
+ },
+ {
+   "term": "maka mụ",
+   "translation": "for me",
+   "category": "grammer"
+ },
+ {
+   "term": "na",
+   "translation": "and / at",
+   "category": "grammer"
+ },
+ {
+   "term": "n'enu",
+   "translation": "upstairs",
+   "category": "grammer"
+ },
+ {
+   "term": "n'etiti",
+   "translation": "in the middle of",
+   "category": "grammer"
+ },
+ {
+   "term": "afọ",
+   "translation": "stomach",
+   "category": "body"
+ },
+ {
+   "term": "ahü",
+   "translation": "body",
+   "category": "body"
+ },
+ {
+   "term": "ukwu",
+   "translation": "foot",
+   "category": "body"
+ },
+ {
+   "term": "ihu",
+   "translation": "face / front",
+   "category": "body"
+ },
+ {
+   "term": "afa",
+   "translation": "name",
+   "category": "body"
+ },
+ {
+   "term": "anü",
+   "translation": "meat/animal",
+   "category": "animal"
+ },
+ {
+   "term": "azu",
+   "translation": "fish / back",
+   "category": "animal"
+ },
+ {
+   "term": "ezi",
+   "translation": "pig",
+   "category": "animal"
+ },
+ {
+   "term": "nkita",
+   "translation": "dog",
+   "category": "animal"
+ },
+ {
+   "term": "dị mma",
+   "translation": "fine",
+   "category": "adjective"
+ },
+ {
+   "term": "di ọfuma",
+   "translation": "awesome",
+   "category": "adjective"
+ },
+ {
+   "term": "di njoo",
+   "translation": "awful",
+   "category": "adjective"
+ },
+ {
+   "term": "mara mma",
+   "translation": "beautiful",
+   "category": "adjective"
+ },
+ {
+   "term": "mbara",
+   "translation": "wide",
+   "category": "adjective"
+ },
+ {
+   "term": "ujo",
+   "translation": "afraid",
+   "category": "adjective"
+ },
+ {
+   "term": "ntakiri",
+   "translation": "small",
+   "category": "adjective"
+ },
+ {
+   "term": "ọhụrụ",
+   "translation": "new",
+   "category": "adjective"
+ },
+ {
+   "term": "oji",
+   "translation": "black",
+   "category": "adjective"
+ },
+ {
+   "term": "ọjọọ",
+   "translation": "ugly / bad",
+   "category": "adjective"
+ },
+ {
+   "term": "öma",
+   "translation": "good",
+   "category": "adjective"
+ },
+ {
+   "term": "oyi",
+   "translation": "cold",
+   "category": "adjective"
+ },
+ {
+   "term": "ọzọ",
+   "translation": "other / extra",
+   "category": "adjective"
+ },
+ {
+   "term": "ogologo",
+   "translation": "tail / long",
+   "category": "adjective"
+ },
+ {
+   "term": "ocha",
+   "translation": "clean",
+   "category": "adjective"
+ },
+ {
+   "term": "ọcha",
+   "translation": "white",
+   "category": "adjective"
+ },
+ {
+   "term": "obere",
+   "translation": "small",
+   "category": "adjective"
+ },
+ {
+   "term": "enuku",
+   "translation": "big",
+   "category": "adjective"
+ },
+ {
+   "term": "ike",
+   "translation": "strength",
+   "category": "adjective"
+ },
+ {
+   "term": "ma ihe",
+   "translation": "clever",
+   "category": "adjective"
+ },
+ {
+   "term": "nsogbu",
+   "translation": "trouble / crisis",
+   "category": "adjective"
+ },
+ {
+   "term": "ochie",
+   "translation": "old",
+   "category": "adjective"
+ },
+ {
+   "term": "akpa",
+   "translation": "bag",
+   "category": "objects"
+ },
+ {
+   "term": "akwụkwọ",
+   "translation": "book",
+   "category": "objects"
+ },
+ {
+   "term": "akwụkwo ego",
+   "translation": "check",
+   "category": "objects"
+ },
+ {
+   "term": "uzọ",
+   "translation": "door",
+   "category": "objects"
+ },
+ {
+   "term": "efere",
+   "translation": "plate",
+   "category": "objects"
+ },
+ {
+   "term": "iko",
+   "translation": "cup",
+   "category": "objects"
+ },
+ {
+   "term": "ngazi",
+   "translation": "spoon",
+   "category": "objects"
+ },
+ {
+   "term": "oche",
+   "translation": "chair",
+   "category": "objects"
+ },
+ {
+   "term": "mmiri",
+   "translation": "water",
+   "category": "objects"
+ },
+ {
+   "term": "ute",
+   "translation": "carpet",
+   "category": "objects"
+ },
+ {
+   "term": "nsi",
+   "translation": "poop",
+   "category": "objects"
+ },
+ {
+   "term": "ọgede",
+   "translation": "banana",
+   "category": "objects"
+ },
+ {
+   "term": "uka",
+   "translation": "church",
+   "category": "places"
+ },
+ {
+   "term": "isi obodo",
+   "translation": "capital",
+   "category": "places"
+ },
+ {
+   "term": "obodo",
+   "translation": "city / country",
+   "category": "places"
+ },
+ {
+   "term": "ụnọ akụkwo",
+   "translation": "school",
+   "category": "places"
+ },
+ {
+   "term": "chukwu",
+   "translation": "God",
+   "category": "people"
+ },
+ {
+   "term": "di",
+   "translation": "husband",
+   "category": "people"
+ },
+ {
+   "term": "enye",
+   "translation": "friend",
+   "category": "people"
+ },
+ {
+   "term": "nwa",
+   "translation": "child",
+   "category": "people"
+ },
+ {
+   "term": "nwanne",
+   "translation": "cousin",
+   "category": "people"
+ },
+ {
+   "term": "nwanne nwoke",
+   "translation": "brother",
+   "category": "people"
+ },
+ {
+   "term": "nna",
+   "translation": "father",
+   "category": "people"
+ },
+ {
+   "term": "ụmụ / ụmụaka",
+   "translation": "children",
+   "category": "people"
+ },
+ {
+   "term": "imela",
+   "translation": "thank you",
+   "category": "sayings"
+ },
+ {
+   "term": "chimoo",
+   "translation": "heyyy",
+   "category": "sayings"
+ },
+ {
+   "term": "da alü",
+   "translation": "good job",
+   "category": "sayings"
+ },
+ {
+   "term": "ka chi foo",
+   "translation": "good night",
+   "category": "sayings"
+ },
+ {
+   "term": "ndo",
+   "translation": "sorry",
+   "category": "sayings"
+ }
+]
