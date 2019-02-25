@@ -11,6 +11,14 @@
         <div class="start-b">
             <button id="start-button" onclick="start()">Start!</button>
         </div>
+        <div class="name-input" id="name-input">
+            <form onsubmit="return false">
+                <p>What's Your Name?</p>
+                <input type="text" id="user-name" placeholder="Enter Name Here">
+                <button type="submit" onclick="saveName('user-name')">Submit!</button>
+            </form>
+        </div>
+
         <div class="container" id="container"> <!-- This is the main menu for selecting categories -->
             <div class="button-list" id="button-list">
                 <button onclick="selectCategory('btn-verbs')" id="btn-verbs"><p>Verbs</p></button>
@@ -27,11 +35,13 @@
             </div>
             
             <div class="word-display" id="word-display">
-                <h3 id="new-word"></h3>
+                
+                <h2 id="new-word"></h2>
+                <h3 id="category-title"></h3>
             </div>
 
-            <div class="flashcards"> <!-- This is the section where you have the flashcards, answering, etc -->
-                <h3 id="category-title"></h3>
+            <div class="flashcards" id="flashcards"> <!-- This is the section where you have the flashcards, answering, etc -->
+                
                 <div id="card" style="height:60%; width:60%; background-color: #F5F500;"><p id="word"></p></div>
                 <input type="text" id="answer"/><input onclick="isCorrect(document.getElementById('id'.innerText))" type="submit" id="btn-submit"/>
                 <div id="response"><p id="response-text"></p></div>

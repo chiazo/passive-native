@@ -3,6 +3,8 @@ import { Word } from '../src/Word';
 import * as igbowords from '../data/igbowords.json';
 import { LearnWords } from './LearnWords';
 
+let setName = false;
+let userName: string;
 
 export let wordList: WordImpl[] = [];
 let categoryWordList: LearnWords[] = [];
@@ -19,13 +21,27 @@ for (let i = 0; i < wordList.length; i++) {
 }
 
 function start() {
-   document.getElementById("container")!.classList.toggle("container-open");
+   if (!setName) {
+      document.getElementById("name-input")!.classList.toggle("name-open");
+   }
    document.getElementById("start-button")!.style.display = "none";
 }
 
+function saveName(username: string) {
+   setName = true;
+   userName = (<HTMLInputElement>document.getElementById(username))!.value;
+   alert("Welcome " + userName + "!");
+   document.getElementById("container")!.classList.toggle("container-open");
+   document.getElementById("name-input")!.style.display = "none";
+   localStorage.setItem("receivedName", userName);
+   userName = localStorage.getItem("receivedName")!;
+}
+
 function selectCategory(categoryElem: string) {
+   document.getElementById("flashcards")!.classList.toggle("flashcards-open");
+   document.getElementById("container")!.style.display = "none";
    categoryWordList = [];
-   let categoryName = document.getElementById(categoryElem)!.innerText;
+   let categoryName = document.getElementById(categoryElem)!.innerHTML;
    document.getElementById("category-title")!.innerHTML = categoryName;
 
    for (let i = 0; i < learntWords.length; i++) {
@@ -37,6 +53,11 @@ function selectCategory(categoryElem: string) {
 
 }
 
+function showWord() {
+   let randomWord = categoryWordList[Math.floor(Math.random() * categoryWordList.length)];
+   randomWord.getTermName();
+   alert("the computer chose: " + randomWord.getTermName());
+}
 
 var highestFreq: LearnWords[] = [];
 var highFreq: LearnWords[] = [];

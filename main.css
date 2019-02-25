@@ -30,3 +30,21 @@ button {
 .container-open.container {
     transform: none;
 }
+
+.name-input {
+    transform: translateX(-100%);
+    transition: transform 1s;
+}
+
+.name-open.name-input {
+    transform: none;
+}
+
+.flashcards {
+    transform: translateX(-100%);
+    transition: transform 1s;
+}
+
+.flashcards-open {
+    transform: none;
+}

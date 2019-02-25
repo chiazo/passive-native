@@ -10,6 +10,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var WordImpl_1 = require("../src/WordImpl");
 var igbowords = __importStar(require("../data/igbowords.json"));
 var LearnWords_1 = require("./LearnWords");
+var setName = false;
+var userName;
 exports.wordList = [];
 var categoryWordList = [];
 for (var i in igbowords) {
@@ -21,18 +23,36 @@ for (var i_1 = 0; i_1 < exports.wordList.length; i_1++) {
     exports.learntWords[exports.learntWords.length] = new LearnWords_1.LearnWords(exports.wordList[i_1].getTermName(), exports.wordList[i_1].getTranslation(), exports.wordList[i_1].getCategory());
 }
 function start() {
-    document.getElementById("container").classList.toggle("container-open");
+    if (!setName) {
+        document.getElementById("name-input").classList.toggle("name-open");
+    }
     document.getElementById("start-button").style.display = "none";
 }
+function saveName(username) {
+    setName = true;
+    userName = document.getElementById(username).value;
+    alert("Welcome " + userName + "!");
+    document.getElementById("container").classList.toggle("container-open");
+    document.getElementById("name-input").style.display = "none";
+    localStorage.setItem("receivedName", userName);
+    userName = localStorage.getItem("receivedName");
+}
 function selectCategory(categoryElem) {
+    document.getElementById("flashcards").classList.toggle("flashcards-open");
+    document.getElementById("container").style.display = "none";
     categoryWordList = [];
-    var categoryName = document.getElementById(categoryElem).innerText;
+    var categoryName = document.getElementById(categoryElem).innerHTML;
     document.getElementById("category-title").innerHTML = categoryName;
     for (var i_2 = 0; i_2 < exports.learntWords.length; i_2++) {
         if (exports.learntWords[i_2].getCategory() === categoryName) {
             categoryWordList[categoryWordList.length] = exports.learntWords[i_2];
         }
     }
+}
+function showWord() {
+    var randomWord = categoryWordList[Math.floor(Math.random() * categoryWordList.length)];
+    randomWord.getTermName();
+    alert("the computer chose: " + randomWord.getTermName());
 }
 var highestFreq = [];
 var highFreq = [];
