@@ -6,7 +6,7 @@ export class LearnWords extends WordImpl {
     private correctAttempts: number;
     private percentCorrect: number;
 
-    constructor(term: string, translation: string, category?: string) {
+    constructor(term: string, translation: string, category: string) {
         super(term, translation, category);
         this.totalAttempts = 0;
         this.correctAttempts = 0;

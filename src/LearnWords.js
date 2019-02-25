@@ -13,14 +13,14 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var WordImpl_1 = require("./src/WordImplImpl");
+var WordImpl_1 = require("./WordImpl");
 var LearnWords = /** @class */ (function (_super) {
     __extends(LearnWords, _super);
-    function LearnWords(term, translation, totalAttempts, correctAttempts, category) {
+    function LearnWords(term, translation, category) {
         var _this = _super.call(this, term, translation, category) || this;
-        _this.totalAttempts = totalAttempts;
-        _this.correctAttempts = correctAttempts;
-        if (totalAttempts !== 0) {
+        _this.totalAttempts = 0;
+        _this.correctAttempts = 0;
+        if (_this.totalAttempts !== 0) {
             _this.percentCorrect = _this.correctAttempts / _this.totalAttempts;
         }
         else {
@@ -28,6 +28,21 @@ var LearnWords = /** @class */ (function (_super) {
         }
         return _this;
     }
+    LearnWords.prototype.getPercentCorrect = function () {
+        return this.percentCorrect;
+    };
+    LearnWords.prototype.getTotalAttempts = function () {
+        return this.totalAttempts;
+    };
+    LearnWords.prototype.getCorrectAttempts = function () {
+        return this.correctAttempts;
+    };
+    LearnWords.prototype.setCorrectAttempts = function (correct) {
+        this.totalAttempts++;
+        if (correct) {
+            this.correctAttempts++;
+        }
+    };
     return LearnWords;
 }(WordImpl_1.WordImpl));
 exports.LearnWords = LearnWords;

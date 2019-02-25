@@ -1,6 +1,6 @@
 import { Word } from "./Word";
 
-const categories = {
+ const categories = {
     VERBS: 'verbs',
     GRAMMER: 'grammer',
     BODY: "body",
@@ -13,11 +13,11 @@ const categories = {
 }
 
 export class WordImpl implements Word {
-    term: string;    
-    translation: string;
-    category?: string | undefined;
+    private term: string;    
+    private translation: string;
+    private category: string;
 
-    constructor(term: string, translation: string, category?: string) {
+    constructor(term: string, translation: string, category: string) {
         this.term = term;
         this.translation = translation;
         this.category = category;
@@ -45,6 +45,18 @@ export class WordImpl implements Word {
                 this.category = categories.SAYINGS;
         }
     }
+    public getCategory(): string {
+        return this.category;
+    };
 
+    public getTermName(): string {
+        return this.term;
+    }
+
+    public getTranslation(): string {
+        return this.translation;
+    }
 }   
+
+
 

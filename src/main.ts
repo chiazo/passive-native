@@ -3,7 +3,9 @@ import { Word } from '../src/Word';
 import * as igbowords from '../data/igbowords.json';
 import { LearnWords } from './LearnWords';
 
+
 export let wordList: WordImpl[] = [];
+let categoryWordList: LearnWords[] = [];
 
 for(var i in igbowords) {
     var item = igbowords[i];
@@ -13,8 +15,28 @@ for(var i in igbowords) {
 export let learntWords: LearnWords[] = [];
 
 for (let i = 0; i < wordList.length; i++) {
-    learntWords[learntWords.length] = new LearnWords(wordList[i].term, wordList[i].translation, wordList[i].category);
+    learntWords[learntWords.length] = new LearnWords(wordList[i].getTermName(), wordList[i].getTranslation(), wordList[i].getCategory());
 }
+
+function start() {
+   document.getElementById("container")!.classList.toggle("container-open");
+   document.getElementById("start-button")!.style.display = "none";
+}
+
+function selectCategory(categoryElem: string) {
+   categoryWordList = [];
+   let categoryName = document.getElementById(categoryElem)!.innerText;
+   document.getElementById("category-title")!.innerHTML = categoryName;
+
+   for (let i = 0; i < learntWords.length; i++) {
+      if (learntWords[i].getCategory() === categoryName) {
+         categoryWordList[categoryWordList.length] = learntWords[i];
+
+      }
+   }
+
+}
+
 
 var highestFreq: LearnWords[] = [];
 var highFreq: LearnWords[] = [];

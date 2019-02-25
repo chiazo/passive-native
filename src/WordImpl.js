@@ -39,6 +39,16 @@ var WordImpl = /** @class */ (function () {
                 this.category = categories.SAYINGS;
         }
     };
+    WordImpl.prototype.getCategory = function () {
+        return this.category;
+    };
+    ;
+    WordImpl.prototype.getTermName = function () {
+        return this.term;
+    };
+    WordImpl.prototype.getTranslation = function () {
+        return this.translation;
+    };
     return WordImpl;
 }());
 exports.WordImpl = WordImpl;
